@@ -1,0 +1,10 @@
+# Snapshot specification for GHC 9.2.8.
+resolver: lts-20.26 # GHC 9.2.8
+
+packages:
+- crypton-0.33
+- crypton-conduit-0.2.3
+
+flags:
+  ansi-terminal:
+    win32-2-13-1: false
